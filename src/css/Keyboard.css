@@ -1,0 +1,59 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  margin-top: 5px;
+}
+
+.row {
+  height: 16.6%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background-color: #505050;
+  color: white;
+  font-size: 32px;
+  border: none;
+  opacity: .95;
+}
+
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  border: 3px solid white;
+  opacity: .75;
+}
+
+#backspace {
+  font-size: 24px;
+  color: white;
+  background-color: #ff9500;
+}
+
+#equals {
+  background-color: #ff9500;
+}
+
+.special {
+  font-size: 38px;
+}
+
+.lt-grey {
+  background-color: #d4d4d2;
+  font-size: 30px;
+  color: black;
+}
+
+.orng {
+  background-color: #ff9500;
+}
